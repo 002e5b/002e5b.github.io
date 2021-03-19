@@ -1,0 +1,8 @@
+*{
+    border: 1px solid red;
+}
+html, body, #home{
+    height: 100%;
+    text-align: center;
+    color: white;
+}
