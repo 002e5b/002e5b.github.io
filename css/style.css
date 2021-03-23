@@ -1,7 +1,24 @@
-*{border: none;}
+.css-selector {
+    
+    animation: AnimationName 15s ease infinite;
+}
 
+@keyframes AnimationName {
+    0%{background-color:#fff}
+    50%{background-color: #111;}
+    100%{background-color:#fff}
+}
+
+*{border: red;}
 html, body, #home{
     height: 100%;
     text-align: center;
     color: white;
+}
+
+nav div a{
+    color: #aaa;
+}
+.mirror{
+    transform: scale(-1,1);
 }
