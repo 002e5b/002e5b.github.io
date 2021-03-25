@@ -10,7 +10,7 @@
 }
 
 *{border: red;}
-html, body, #home{
+html, body, #home, .shit{
     height: 100%;
     text-align: center;
     color: white;
