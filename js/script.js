@@ -12,7 +12,7 @@ function alerta() {
 
 function dado20(){
     let dado = Math.floor(Math.random() * 20) + 1 
-    console.log(dado)
+    alert(dado)
     if (dado === 1){
         $('#d1').modal('show')
        } else if(dado >= 2 && dado <= 5){
